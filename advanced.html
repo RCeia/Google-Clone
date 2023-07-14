@@ -21,9 +21,18 @@
                 </div>
             </div>
         </nav>
+        <div class="box">
         <form action="https://google.com/search">
-            <input type="text" name="q">
+            <label>All these words:</label>
+            <input type="text" autocomplete="off" name="as_q">
+            <label>This exact word or phrase:</label>
+            <input type="text" autocomplete="off" name="as_epq">
+            <label>Any of these words:</label>
+            <input type="text" autocomplete="off" name="as_oq">
+            <label>None of these words:</label>
+            <input type="text" autocomplete="off" name="as_eq">
             <input type="submit" value="Advanced Search">
         </form>
+        </div>
     </body>
 </html>
