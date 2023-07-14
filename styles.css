@@ -21,10 +21,17 @@ input[type = "text"] {
 }
 
 input[type = "submit"] {
-    margin-right: 8px;
-    margin-left: 8px;
+    margin: 13px;
     border-radius: 18px;
-    padding: 7px 12px;
+    padding: 7px 22px;
+    background-color: #f0f0f0;
+}
+
+input[type = "submit"]:hover {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 2px solid #dadce0;
+    color: #202124;
 }
 
 .box {
