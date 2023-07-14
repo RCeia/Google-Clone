@@ -4,27 +4,25 @@ body {
 
 input {
     background: none;
-    display: block;
-    text-align: center;
+    text-align:start;
     border: 2px solid #bbbdc4;
     outline: none;
 }
 
 input[type = "text"] {
     width: 100%;
-    display: flex;
     border-radius: 30px;
-    padding: 12px 10px;
+    padding: 10px 10px;
     margin: 6px;
+    padding-left: 42px;
     background-image: url('searchicon.png');
-    background-position: 15px 15px;
+    background-position: 16px 15px;
     background-repeat: no-repeat;
 }
 
 input[type = "submit"] {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 8px;
+    margin-left: 8px;
     border-radius: 18px;
     padding: 7px 12px;
 }
