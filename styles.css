@@ -45,3 +45,13 @@ input[type = "submit"]:hover {
     width: 32%;
     min-width: 400px;
 }
+
+.img-identifier {
+    position: relative;
+    left: -50px;
+    top: 41px;
+}
+.img {
+    position: relative;
+    left: 25px;
+}
