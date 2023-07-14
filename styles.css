@@ -12,9 +12,10 @@ input {
 
 input[type = "text"] {
     width: 100%;
+    display: flex;
     border-radius: 30px;
     padding: 12px 10px;
-    margin-bottom: 5px;
+    margin: 6px;
     background-image: url('searchicon.png');
     background-position: 15px 15px;
     background-repeat: no-repeat;
@@ -28,12 +29,14 @@ input[type = "submit"] {
     padding: 7px 12px;
 }
 
-form {
+.box {
     text-align:center;
-    padding: 40px;
+    align-content: center;
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 520px;
+    box-sizing: border-box;
+    width: 32%;
+    min-width: 400px;
 }
