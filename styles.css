@@ -34,7 +34,7 @@ input[type = "submit"]:hover {
     color: #202124;
 }
 
-.box {
+.search-box {
     text-align:center;
     align-content: center;
     position: absolute;
@@ -46,11 +46,50 @@ input[type = "submit"]:hover {
     min-width: 400px;
 }
 
+.heading {
+    color: red;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.advanced-search-box {
+    margin: 50px 40px;
+}
+
+.advanced-search-box label {
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+}
+
+.advanced-search-box .form-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.advanced-search-box .form-group input[type=text] {
+    width: 35%;
+    margin-right: 5%;
+}
+
+.advanced-search-box .right-align {
+    width: 40%;
+}
+
+.advanced-search-box input[type=submit] {
+    background-color: #1a73e8;
+    color: white;
+    margin-left: 15%;
+}
+
 .img-identifier {
     position: relative;
     left: -50px;
     top: 41px;
 }
+
 .img {
     position: relative;
     left: 25px;

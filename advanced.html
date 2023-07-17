@@ -21,18 +21,32 @@
                 </div>
             </div>
         </nav>
-        <div class="box">
-        <form action="https://google.com/search">
-            <label>All these words:</label>
-            <input type="text" autocomplete="off" name="as_q">
-            <label>This exact word or phrase:</label>
-            <input type="text" autocomplete="off" name="as_epq">
-            <label>Any of these words:</label>
-            <input type="text" autocomplete="off" name="as_oq">
-            <label>None of these words:</label>
-            <input type="text" autocomplete="off" name="as_eq">
-            <input type="submit" value="Advanced Search">
-        </form>
+        <label class="heading">Advanced Search</label>
+        <hr>
+        <div class="advanced-search-box">
+            <form action="https://google.com/search">
+                <div class="form-group">
+                    <label>All these words:</label>
+                    <input type="text" autocomplete="off" name="as_q">
+                    <label class="right-align">Write the important words: <b>tri-colour rat terrier</b></label>
+                </div>
+                <div class="form-group">
+                    <label>This exact word or phrase:</label>
+                    <input type="text" autocomplete="off" name="as_epq">
+                    <label class="right-align">Enclose the exact words in quotation marks: <b>"rat terrier"</b></label>
+                </div>
+                <div class="form-group">
+                    <label>Any of these words:</label>
+                    <input type="text" autocomplete="off" name="as_oq">
+                    <label class="right-align">Type OR between all the words you want: <b>OR thumbnail</b></label>
+                </div>
+                <div class="form-group">
+                    <label>None of these words:</label>
+                    <input type="text" autocomplete="off" name="as_eq">
+                    <label class="right-align">Place a minus sign immediately before the unintended words:<b>-rodent, - "Jack Russell"</b></label>
+                </div>
+                <input type="submit" value="Advanced Search">
+            </form>
         </div>
     </body>
 </html>
